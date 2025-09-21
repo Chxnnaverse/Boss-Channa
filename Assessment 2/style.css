@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  background-color: #e0f7ff; /* Light sky-blue page background */
+  font-family: Arial, sans-serif; /* Simple, readable font */
+  margin: 0;
+  padding: 0;
+}
+/* Make main content area a white card with some padding (for readability) */
+main {
+  max-width: 800px;
+  margin: 20px auto; /* center the content, add top/bottom spacing */
+  background-color: #ffffff; /* white background for content sections */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* a subtle shadow for depth */
+}
+
+/* Header and Navigation Bar */
+header {
+  background-color: skyblue; /* sky-blue header background */
+  padding: 15px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+header nav {
+  margin-top: 10px;
+}
+header nav a {
+  /* Style the navigation links */
+  text-decoration: none;
+  color: #000; /* black text for contrast on skyblue */
+  font-weight: bold;
+  margin: 0 10px;
+}
+header nav a:hover {
+  text-decoration: underline; /* underline on hover for clarity */
+}
+
+/* Footer styles */
+footer {
+  background-color: skyblue;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* Meme image section styles */
+.meme-section {
+  text-align: center;
+  margin: 20px 0;
+}
+.meme-section img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.meme-section .credit {
+  font-size: 0.8em;
+  color: #555;
+}
+
+/* Contact form styles */
+form {
+  max-width: 600px;
+}
+form p {
+  margin-bottom: 15px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box; /* ensures padding doesn't overflow width */
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+form textarea {
+  resize: vertical; /* allow vertical resize of textarea */
+}
+form input[type="submit"] {
+  background-color: #87ceeb; /* skyblue colored button */
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: #76bcd4; /* slightly darker on hover */
+}
